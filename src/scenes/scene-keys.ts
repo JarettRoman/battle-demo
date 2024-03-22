@@ -1,4 +1,4 @@
-/* eslint-disable no-unused-vars */
 export enum SCENE_KEYS {
-PRELOADER = 'Preloader',
+  PRELOADER = 'Preloader',
+  BATTLE_SCENE = 'BATTLE_SCENE',
 }

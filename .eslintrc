@@ -1,9 +1,7 @@
 {
   "root": true,
   "parser": "@typescript-eslint/parser",
-  "plugins": [
-    "@typescript-eslint"
-  ],
+  "plugins": ["@typescript-eslint", "@stylistic"],
   "extends": [
     "eslint:recommended",
     "plugin:import/errors",
@@ -11,10 +9,12 @@
     "plugin:import/typescript",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
-    "plugin:@shopify/esnext"
+    "plugin:@shopify/esnext",
   ],
   "rules": {
-        "no-shadow": "off",
-        "@typescript-eslint/no-shadow": "error"
-  }
+    "no-shadow": "off",
+    "@typescript-eslint/no-shadow": "error",
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": "error",
+  },
 }
